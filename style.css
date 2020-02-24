@@ -13,7 +13,7 @@ header {
 
 .sbr {
     font-size: 30px;
-    margin-top: 7px;
+    margin-top: 5px;
     display: flex;
 }
 
@@ -25,24 +25,28 @@ header {
 }
 
 .navigation {
-    margin-left: 45%;
-    display: flex;
     margin-top: 12px;
+    margin-left: 40%;
+    display: flex;
+}
+
+.nav-items {
+    display: flex;
     font-size: 20px;
     color: black;
 }
 
-.navigation a {
+.nav-items a {
     color: black;
     transition: .3s;
 }
 
-.navigation a:hover {
+.nav-items a:hover {
     color: #7a220f;
     text-decoration: none;
 }
 
-.navigation a:after {
+.nav-items a:after {
     display: block;
     content: "";
     height: 2px;
@@ -53,17 +57,53 @@ header {
     transition: width .3s ease-in-out;
 }
 
-.navigation a:hover:after,
+.nav-items a:hover:after,
 a:focus:after {
     width: 100%;
 }
 
-#news {
-    padding-right: 30px;
+#news-a {
+    padding-right: 25px;
 }
 
-#about {
-    padding-right: 30px;
+#about-a {
+    padding-right: 25px;
 }
 
+.navigation img {
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+}
 /*Шапка*/
+
+main {
+    display: flex;
+    background-color: gray;
+}
+
+.ussrbgimg {
+    width: 1263px;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
+
+/*Главный блок*/
+
+.about h1 {
+    margin: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid #000;
+    width: 145px;
+}
+
+.about h2 {
+    margin-top: 50px;
+}
+
+. {
+    
+}
+
+/*О Партии*/
